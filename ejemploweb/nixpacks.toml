@@ -1,0 +1,1 @@
+NIXPACKS_BUILD_CMD="composer install && yarn && yarn build && php artisan migrate --force && php artisan optimize && chmod 777 -R storage/ && chmod 777 -R bootstrap/cache && php artisan storage:link"
