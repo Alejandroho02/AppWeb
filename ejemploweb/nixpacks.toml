@@ -5,15 +5,3 @@ commands = [
   "curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer",
   "composer --version"  # Verificar que Composer esté instalado correctamente
 ]
-
-[phases.build]
-commands = [
-  "chown -R www-data:www-data /app",
-  "composer install --no-dev --optimize-autoloader --no-interaction",
-  "npm install --production",
-  "php artisan optimize",
-  "php artisan config:cache",
-  "php artisan route:cache",
-  "php artisan view:cache",
-  "php artisan migrate --force -vvv"  # Ejecutar migraciones con más verbosidad
-]
