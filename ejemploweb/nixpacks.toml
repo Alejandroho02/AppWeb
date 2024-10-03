@@ -2,21 +2,24 @@
 commands = [
   "apt-get update",
   "apt-get install -y curl",
-  "curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer"
+  "curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer",
+  "composer --version"  # Verificar que Composer esté instalado correctamente
 ]
 
 [phases.build]
 commands = [
-  "composer install",
-  "npm install --production",
+  "chown -R www-data:www-data /app",  # Asegurar los permisos correctos
+  "composer install --no-dev --optimize-autoloader --no-interaction",  # Instalar dependencias de Composer en producción
+  "npm install --production",  # Instalar dependencias de Node.js
   "php artisan optimize",
   "php artisan config:cache",
   "php artisan route:cache",
   "php artisan view:cache",
-  "php artisan migrate --force"
+  "php artisan migrate --force"  # Ejecutar migraciones de la base de datos
 ]
 
 [phases.start]
 commands = [
-  "php artisan serve --host=0.0.0.0 --port=3000"
+  "[ -d vendor ] || (echo 'Vendor folder not found, running composer install' && composer install --no-dev --optimize-autoloader --no-interaction)",  # Verificar si la carpeta vendor existe, si no, instalar dependencias
+  "php artisan serve --host=0.0.0.0 --port=3000"  # Iniciar el servidor Laravel
 ]
