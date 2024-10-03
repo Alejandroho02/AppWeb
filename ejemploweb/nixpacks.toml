@@ -8,12 +8,12 @@ commands = [
 
 [phases.build]
 commands = [
-  "chown -R www-data:www-data /app",  # Asegurar los permisos correctos
-  "composer install --no-dev --optimize-autoloader --no-interaction",  # Instalar dependencias de Composer en producción
-  "npm install --production",  # Instalar dependencias de Node.js
+  "chown -R www-data:www-data /app",
+  "composer install --no-dev --optimize-autoloader --no-interaction",
+  "npm install --production",
   "php artisan optimize",
   "php artisan config:cache",
   "php artisan route:cache",
   "php artisan view:cache",
-  "php artisan migrate --force"  # Ejecutar migraciones de la base de datos
+  "php artisan migrate --force -vvv"  # Ejecutar migraciones con más verbosidad
 ]
