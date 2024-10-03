@@ -15,10 +15,10 @@
                 <h1>Inside Battle</h1>
             </div>
             <ul class="nav-links">
-                <li><a href="{{ url('/') }}">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="#about">Acerca del Juego</a></li>
-                <li><a href="{{ route('login') }}">Login</a></li>
-                <li><a href="{{ route('register') }}">Registro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Registro</a></li>
             </ul>
         </nav>
     </header>
@@ -26,7 +26,7 @@
     <section class="hero">
         <h2>Una Lucha Interna y Física</h2>
         <p>Descubre la historia de Alex, un joven deportista enfrentando una enfermedad crónica. Aprende a vivir con ella y a superar los desafíos internos y externos.</p>
-        <a href="{{ route('register') }}" class="btn">Únete a la Batalla</a>
+        <a href="register.html" class="btn">Únete a la Batalla</a>
     </section>
 
     <section id="about" class="about-section">
@@ -38,7 +38,7 @@
         <p>&copy; 2024 Inside Battle. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="{{ asset('js/script.js') }}"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
