@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>jackpiro</title>
+    <title>INSIDE BATTLE</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -60,7 +60,7 @@
                                             <li class="button_login"> <a href="#">Login</a> </li>
                                             <li> <a href="#about">Signup</a> </li>
                                             <li class="mean-last">
-                                             <a href="#"><img src="images/search_icon.png" alt="#" /></a>
+                                             <a href="#"><img src="/images/search_icon.png" alt="#" /></a>
                                             </li>
                                         </ul>
                         </div>
@@ -100,7 +100,7 @@
                             </div>
                              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
                                 <div class="text-img">
-                                   <figure><img src="images/img.png" alt="#"/></figure>
+                                   <figure><img src="/images/img.png" alt="#"/></figure>
                                 </div>
                             </div>
 
@@ -129,7 +129,7 @@
 
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="two-box">
-                                <figure><img src="images/our-image1.jpg" alt="#" /></figure>
+                                <figure><img src="/images/our-image1.jpg" alt="#" /></figure>
                             </div>
                         </div>
 
@@ -148,7 +148,7 @@
 
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="two-box">
-                                <figure><img src="images/our-image2.jpg" alt="#" /></figure>
+                                <figure><img src="/images/our-image2.jpg" alt="#" /></figure>
                             </div>
                         </div>
 
@@ -167,7 +167,7 @@
 
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="two-box">
-                                <figure><img src="images/our-image3.jpg" alt="#" /></figure>
+                                <figure><img src="/images/our-image3.jpg" alt="#" /></figure>
                             </div>
                         </div>
 
@@ -202,7 +202,7 @@
                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                      <div class="box_bg">
                          <div class="box_bg_img">
-                             <figure><img src="images/soft.jpg"></figure>
+                             <figure><img src="/images/soft.jpg"></figure>
                          </div>
                      </div>
                  </div>
@@ -230,7 +230,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="about-box">
-                        <figure><img src="images/about.jpg" alt="#" /></figure>
+                        <figure><img src="/images/about.jpg" alt="#" /></figure>
 
                         <p> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             <br> labore et dolore magna aliqua. Ut enim conseq</p>
@@ -257,17 +257,17 @@
                     <div class="row box">
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                             <div class="testimonial_box">
-                                <figure><img src="images/test1.png" alt="#" /></figure>
+                                <figure><img src="/images/test1.png" alt="#" /></figure>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                             <div class="testimonial_box">
-                                <figure><img src="images/test2.png" alt="#" /></figure>
+                                <figure><img src="/images/test2.png" alt="#" /></figure>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                             <div class="testimonial_box">
-                                <figure><img src="images/test3.png" alt="#" /></figure>
+                                <figure><img src="/images/test3.png" alt="#" /></figure>
                             </div>
                         </div>
                     </div>
@@ -340,12 +340,12 @@
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
                                 <div class="address">
                                     <ul class="social_link">
-                                        <li><a href="#"><img src="icon/fb.png"></a></li>
-                                        <li><a href="#"><img src="icon/tw.png"></a></li>
-                                        <li><a href="#"><img src="icon/lin(2).png"></a></li>
-                                         <li><a href="#"><img src="icon/instagram.png"></a></li>
+                                        <li><a href="#"><img src="/icon/fb.png"></a></li>
+                                        <li><a href="#"><img src="/icon/tw.png"></a></li>
+                                        <li><a href="#"><img src="/icon/lin(2).png"></a></li>
+                                         <li><a href="#"><img src="/icon/instagram.png"></a></li>
                                     </ul>
-                                    <a href="index.html"> <img src="images/logo.png" alt="logo"></a>
+                                    <a href="index.html"> <img src="/images/logo.png" alt="logo"></a>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
@@ -353,10 +353,10 @@
                                     <h3>Quick links</h3>
                                     <ul class="Menu_footer">
                                         <li class="active"> <img src="images/3.png" alt="#"> <a href="#game">Game</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="#software">Software</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="#about">About</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="#testimonial"> Testimonial</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="#contact">Contact</a> </li>
+                                        <li><img src="/images/3.png" alt="#"> <a href="#software">Software</a> </li>
+                                        <li><img src="/images/3.png" alt="#"> <a href="#about">About</a> </li>
+                                        <li><img src="/images/3.png" alt="#"> <a href="#testimonial"> Testimonial</a> </li>
+                                        <li><img src="/images/3.png" alt="#"> <a href="#contact">Contact</a> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -364,11 +364,11 @@
                                 <div class="address">
                                     <h3>downloded</h3>
                                     <ul class="Links_footer">
-                                        <li class="active"><img src="images/3.png" alt="#"> <a href="#">Lorem Ipsum </a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="#">Simply random</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="#">Roots in a</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="#"> Piece</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="#">Classical</a> </li>
+                                        <li class="active"><img src="/images/3.png" alt="#"> <a href="#">Lorem Ipsum </a> </li>
+                                        <li><img src="/images/3.png" alt="#"> <a href="#">Simply random</a> </li>
+                                        <li><img src="/images/3.png" alt="#"> <a href="#">Roots in a</a> </li>
+                                        <li><img src="/images/3.png" alt="#"> <a href="#"> Piece</a> </li>
+                                        <li><img src="/images/3.png" alt="#"> <a href="#">Classical</a> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -378,12 +378,12 @@
                                     <h3>Contact us </h3>
                                     <ul class="loca">
                                         <li>
-                                            <a href="#"><img src="icon/loc.png" alt="#" /></a>London 145
+                                            <a href="#"><img src="/icon/loc.png" alt="#" /></a>London 145
                                             <br>United Kingdom </li>
                                         <li>
-                                            <a href="#"><img src="icon/email.png" alt="#" /></a>demo@gmail.com </li>
+                                            <a href="#"><img src="/icon/email.png" alt="#" /></a>demo@gmail.com </li>
                                         <li>
-                                            <a href="#"><img src="icon/call.png" alt="#" /></a>+12586954775 </li>
+                                            <a href="#"><img src="/icon/call.png" alt="#" /></a>+12586954775 </li>
                                     </ul>
                                 </div>
                             </div>
@@ -402,14 +402,14 @@
     </footr>
     <!-- end footer -->
     <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/plugin.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jquery-3.0.0.min.js"></script>
+    <script src="/js/plugin.js"></script>
     <!-- sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="/js/custom.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
 </body>
